@@ -1,0 +1,35 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+p{
+    font-size: 1.8em;
+    letter-spacing: -1px;
+}
+.intro-headline p:nth-child(1) {
+    margin-bottom: -0.5em;
+}
+
+.intro-headline p:nth-child(3) {
+    text-align: right;
+    margin-top: -0.7em;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    margin: 0;
+    letter-spacing: 0.03em;
+    color: #FF8383;
+}
+
