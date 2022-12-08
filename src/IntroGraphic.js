@@ -1,5 +1,5 @@
 import './IntroGraphic.css'
-import vectorFace from './vector-face.svg'
+import vectorFace from './assets/vector-face.svg'
 
 export default function IntroGraphic() {
     return (

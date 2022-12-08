@@ -1,0 +1,7 @@
+#projects-section{
+
+}
+.projects-container{
+    overflow: scroll;
+    height: calc(100% - 161.6px);
+}

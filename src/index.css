@@ -4,7 +4,8 @@ body {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
   color: #2f2f2f;
-
+  padding: 0 100px;
+  box-sizing: border-box;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,4 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+section{
+  height: 100vh;
 }

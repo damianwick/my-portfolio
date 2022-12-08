@@ -1,5 +1,3 @@
-
-
 .container{
     display: flex;
     flex-direction: column;
@@ -10,8 +8,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
+.graphic-container{
+    height: 500px;
+}
+.graphic-container img{
+    height: 100%;
+}
 p{
     font-size: 1.8em;
     letter-spacing: -1px;
@@ -24,11 +26,11 @@ p{
     text-align: right;
     margin-top: -0.7em;
 }
-
-h1{
+.intro-headline h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 4em;
     margin: 0;
+    padding: 0;
     letter-spacing: 0.03em;
     color: #FF8383;
 }

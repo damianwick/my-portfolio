@@ -1,12 +1,11 @@
-section{
-    height: 100vh;
-}
-
 .downBtn{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 5%;
 }
 
 .downBtn p{

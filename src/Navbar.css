@@ -1,13 +1,14 @@
 .nav{
-    margin: 6em;
-    
+    /* margin: 6em; */
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .logo-container{
-    width: 200px;
+    width: 150px;
 }
+
 
 .nav-list{
     list-style: none;
