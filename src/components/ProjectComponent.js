@@ -9,8 +9,8 @@ export default function ProjectComponent(props) {
                     <p>{props.description}</p>    
                 </div>
                 <div>
-                    <a type="button" href={props.liveLink}>Live</a>
-                    <a type="button" href={props.codeLink}>Code</a>
+                    <a type="button" href={props.liveLink} className="btn">Live</a>
+                    <a type="button" href={props.codeLink} className="btn">Code</a>
                 </div>
             </div>
             <div className="right-column">

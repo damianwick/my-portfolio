@@ -1,13 +1,18 @@
 import './ProjectsSection.css'
 import ProjectComponent from './ProjectComponent'
-import flashcardsImage from './assets/project_img.jpg'
-import { Component } from 'react'
+import flashcardsImage from '../assets/project_img.jpg'
 
-export default function ProjectsSection() {   
+export default function ProjectsSection() {
+    const projectsArr = document.getElementsByClassName('project-container');
+    const projectContainerHeight = projectsArr[0].clientHeight
+    console.log(projectContainerHeight)
+    const projectsContainerStyle = {
+        height: projectContainerHeight
+    }
     return (
         <section id='projects-section'>
             <h1>//projects</h1>
-            <div className='projects-container'>
+            <div className='projects-container' style={projectsContainerStyle}>
                 <ProjectComponent 
                 name='Dictionary Flashcards' 
                 description='project description'

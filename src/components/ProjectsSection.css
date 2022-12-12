@@ -1,0 +1,11 @@
+#projects-section{
+
+}
+.projects-container{
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.projects-container::-webkit-scrollbar{
+    display: none;
+}

@@ -1,7 +1,7 @@
 import './IntroSection.css'
 import Navbar from "./Navbar"
 import IntroGraphic from "./IntroGraphic"
-import arrowDown from './assets/Arrow-Down.svg'
+import arrowDown from '../assets/Arrow-Down.svg'
 
 export default function IntroSection() {
     return (

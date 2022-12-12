@@ -1,4 +1,4 @@
-import logo from './assets/damianw_logo2_black.svg'
+import logo from '../assets/damianw_logo2_black.svg'
 import './Navbar.css';
 
 export default function Navbar() {

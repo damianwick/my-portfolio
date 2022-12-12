@@ -1,6 +1,6 @@
 import './App.css';
-import IntroSection from './IntroSection';
-import ProjectsSection from './ProjectsSection';
+import IntroSection from './components/IntroSection';
+import ProjectsSection from './components/ProjectsSection';
 function App() {
   return (
     <div className="app">
