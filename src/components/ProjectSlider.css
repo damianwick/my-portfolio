@@ -1,0 +1,48 @@
+.project-slider-container{
+    position: relative;
+    transform: translate(0, 25%);
+}
+.single-project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-column{
+    grid-column: 1;
+}
+.right-column{
+    grid-column: 2;
+}
+.btn{
+    background-color: #FFF9F9;
+    border: 3px solid #2F2F2F;
+    font-weight: 700;
+    padding: 0.6em 1.5em;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+picture{
+    width: 50%;
+    height: 100%;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.navigationBtns{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.navigationBtns button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+}
+.navigationBtns button:hover{
+    opacity: 0.3;
+}
+.previousProjectBtn img{
+    transform: rotate(180deg);
+}

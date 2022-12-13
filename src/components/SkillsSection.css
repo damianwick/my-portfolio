@@ -1,0 +1,42 @@
+.tiles-container{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: 2; */
+
+
+    /* row-gap: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+.tiles-container .top-row{
+    display: flex;
+    margin: 0 auto;
+}
+.tiles-container .bottom-row{
+    display: flex;
+    margin: 0 auto;
+}
+
+.tile{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    text-align: center;
+    color: #0A90A2;
+    font-weight: 700;
+}
+
+
+
+.icon-container{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto 10px;
+    background-color: #0A90A2;
+
+}

@@ -1,7 +1,7 @@
 import './IntroSection.css'
 import Navbar from "./Navbar"
 import IntroGraphic from "./IntroGraphic"
-import arrowDown from '../assets/Arrow-Down.svg'
+import arrow from '../assets/arrow.svg'
 
 export default function IntroSection() {
     return (
@@ -12,11 +12,10 @@ export default function IntroSection() {
             <p>Let's go!</p>
             <div>
                 <a href='#'>
-                    <img src={arrowDown} />
+                    <img src={arrow} />
                 </a>
             </div>
         </div>
-
         </section>
 
     )

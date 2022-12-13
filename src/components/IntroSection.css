@@ -11,3 +11,14 @@
 .downBtn p{
     font-size: 1em;
 }
+
+a img{
+    transform: rotate(90deg);
+    width: 100%;
+    height: 100%;
+}
+
+.downBtn div{
+    height: 3em;
+    width: 3em;
+}
