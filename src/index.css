@@ -9,10 +9,9 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(#FFFCF8, #038DA0);
+  background-image: linear-gradient(#FFFCF8, #A4D4D8, #038DA0);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 section{
   height: 100vh;
