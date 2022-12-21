@@ -1,19 +1,14 @@
 .nav{
-    /* margin: 6em; */
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-
 .logo-container{
     width: 150px;
 }
-
-
 .nav-list{
     list-style: none;
 }
-
 a{
     text-decoration: none;
     color: inherit;

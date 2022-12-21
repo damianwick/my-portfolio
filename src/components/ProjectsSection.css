@@ -2,3 +2,19 @@
     width: 100%;
     height: 40%;
 }
+
+#projects-section .background-signs h1{
+    font-size: 60vh;
+}
+
+#projects-section .background-signs h1:nth-child(1){
+    color: #CAE5E6;
+    position: absolute;
+    left: -500px;
+}
+#projects-section .background-signs h1:nth-child(2){
+    color: #BBDEE0;
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}

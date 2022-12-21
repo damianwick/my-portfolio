@@ -28,9 +28,12 @@ export default function ProjectsSection() {
         imgSource: portfolioImg
         }
     ]
-
     return (
         <section id='projects-section'>
+            <div className='background-signs'>
+                <h1>PROJECTS</h1>
+                <h1>PROJECTS</h1>
+            </div>
             <h1>//projects</h1>
             <div className='projects-container'>
                 <ProjectSlider projects={projects} />

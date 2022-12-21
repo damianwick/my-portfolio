@@ -1,0 +1,20 @@
+footer{
+    text-align: center;
+    font-size: 1rem;
+    margin: 48px auto;
+    color: #FFF9F9;
+    
+}
+footer p{
+    font-size: 1em;
+    letter-spacing: 0.3px;
+}
+.footer-icons-container{
+    margin: 0 auto;
+    width: 110px;
+    text-align: center;
+    font-size: 2em;
+}
+.footer-icons-container a:nth-child(1){
+    margin-right: 24px ;
+}

@@ -1,10 +1,33 @@
 section h1{
     padding: 50px 0;
     font-weight: 300;
-    font-size: 3em;
+    font-size: 2em;
 }
-
 .wrapper{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
+}
+.btn{
+    background-color: #FFF9F9;
+    border: 2px solid #2F2F2F;
+    font-weight: 700;
+    padding: 0.6em 1.5em;
+    cursor: pointer;
+}
+.background-signs{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.background-signs h1{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
 }

@@ -3,14 +3,11 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     position: relative;
-    top: 20%;
-}
-.left-column{
+    margin: 100px;
 }
 .left-column h2{
-    margin: 0 auto auto;
+    margin: 20px auto auto;
     font-size: 2.25em;
-
 }
 .left-column p{
     font-size: 1.25em;
@@ -20,21 +17,39 @@
     bottom: 20px;
 }
 .right-column{
-    flex-direction: column;
     overflow: hidden;
 }
 .headshot-container{
+    height: 300px;
     position: relative;
-    margin-top: -45%;
+    margin-top: -130px;
+    left: 100px;
     z-index: 2;
+}
+.headshot-container img{
+    object-fit: contain;
 }
 .graphic-container{
     position: relative;
-    top: -70px;
-    left: 110px;
-    height: 337px;
+    left: 210px;
+    height: 250px; 
 }
 .graphic-container img{
     align-self: center;
     object-fit: contain;
+}
+#about-section .background-signs h1{
+    font-size: 60vh;
+}
+#about-section .background-signs h1:nth-child(1){
+    color: #6BBBC4;
+    position: absolute;
+    left: -400px;
+}
+#about-section .background-signs h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 4px #4FAFBB;
+    position: absolute;
+    left: 950px;
+    top: 400px;
 }

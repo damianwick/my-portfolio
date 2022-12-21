@@ -25,9 +25,9 @@ export default function ProjectSlider({ projects }) {
                     <h2>{projects[currentIndex].name}</h2>
                     <p>{projects[currentIndex].description}</p>    
                 </div>
-                <div>
-                    <a type="button" onClick={goToNext} href={projects[currentIndex].liveLink} className="btn">Live</a>
-                    <a type="button" href={projects[currentIndex].codeLink} className="btn">Code</a>
+                <div className='project-buttons'>
+                    <a type="button" onClick={goToNext} href={projects[currentIndex].liveLink} className="btn project-btn">Live</a>
+                    <a type="button" href={projects[currentIndex].codeLink} className="btn project-btn">Code</a>
                 </div>
             </div>
             <div className="right-column">

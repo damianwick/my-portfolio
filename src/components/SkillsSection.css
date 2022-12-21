@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 20%;
 }
 .tiles-container .top-row{
     display: flex;
@@ -13,24 +12,23 @@
     display: flex;
     margin: 0 auto;
 }
-
 .tile{
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
     margin: 40px;
     text-align: center;
     color: #0A90A2;
     font-weight: 700;
 }
-
-
-
 .icon-container{
-    width: 150px;
-    height: 150px;
+    width: 75%;
+    height: 75%;
     padding: 20px;
     box-sizing: border-box;
     margin: 0 auto 10px;
     background-color: #0A90A2;
-
+}
+#skills-section .background-signs h1{
+    font-size: 100vh;
+    color: #96CED3;
 }

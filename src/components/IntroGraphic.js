@@ -4,8 +4,8 @@ import vectorFace from '../assets/vector-face.svg'
 export default function IntroGraphic() {
     return (
         <div className='container'>
-            <div className="graphic-container">
-                <img src={vectorFace} />
+            <div className="intro-graphic-container">
+                <img src={vectorFace}/>
             </div>
             <div className='intro-headline'>
                 <p>I'm a</p>

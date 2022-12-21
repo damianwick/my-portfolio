@@ -9,27 +9,12 @@ import jqueryIcon from '../assets/jquery.svg'
 import figmaIcon from '../assets/figma.svg'
 
 export default function SkillsSection() {
-    // const skillTilesInfo = [
-    //     {src: {#}, name: 'HTML'}
-    //     {src: {#}, name: 'CSS'}
-    //     {src: {#}, name: 'JavaScript'}
-    //     {src: {#}, name: 'React'}
-    //     {src: {#}, name: 'Bootstrap'}
-    //     {src: {#}, name: 'jQuery'}
-    //     {src: {#}, name: 'Figma'}
-    // ]
-
-    
-    // const makeSkillTile = () => {
-    //     for(skill of skillTiles) {
-    //         return {
-
-    //         }
-    //     }
-    // }
     return (
-        <section>
-            <h1>//Skills</h1>
+        <section id='skills-section'>
+            <div className='background-signs'>
+                <h1>SKILLS</h1>
+            </div>
+            <h1>//skills</h1>
             <div className="tiles-container">
                 <div className='top-row'>
                 <div className="tile">

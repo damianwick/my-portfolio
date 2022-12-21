@@ -3,16 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-.graphic-container{
-    height: 500px;
-}
-.graphic-container img{
-    height: 100%;
+.intro-graphic-container{
+    height: 300px;
+    margin: 0 auto;
+    top: 0;
+    left: 0; 
 }
 p{
     font-size: 1.8em;

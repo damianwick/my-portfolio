@@ -5,6 +5,10 @@ import codeGraphic from '../assets/code_graphic.jpg'
 export default function AboutSection() {
     return (
         <section id='about-section'>
+            <div className='background-signs'>
+                <h1>ABOUT</h1>
+                <h1>ME</h1>
+            </div>
             <h1>//about</h1>
             <div className='about-container'>
                 <div className='left-column'>

@@ -1,0 +1,46 @@
+#contact-section p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.25em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px auto;
+    font-family: 'Space Grotesk', sans-serif;
+    color:  
+}
+.contact-form-first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form-first-row span{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+form input{
+    height: 40px;
+}
+form textarea{
+    height: 300px;
+    resize: none;
+}
+form input, textarea{
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: none;
+}
+form label{
+    margin: 20px 0 5px;
+}
+.form-btn{
+    width: 105px;
+    margin: 20px 0 0;
+    align-self: flex-end;
+}
+#contact-section .background-signs h1{
+    font-size: 100vh;
+    color: #1896A7;
+}
