@@ -3,7 +3,7 @@ import vectorFace from '../assets/vector-face.svg'
 
 export default function IntroGraphic() {
     return (
-        <div className='container'>
+        <div className='intrographic-container'>
             <div className="intro-graphic-container">
                 <img src={vectorFace}/>
             </div>

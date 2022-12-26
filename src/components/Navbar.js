@@ -4,21 +4,21 @@ import './Navbar.css';
 export default function Navbar() {
     return (
        <div className='nav'>
-            <div className='logo-container'>
+            <a className='logo-container' href='../../public/index.html'>
                 <img src={logo}/>
-            </div>
+            </a>
             <ul className='nav-list'>
                 <li>
-                    <a href='#'>projects</a>
+                    <a href='#projects-section' className='underline-animation'>projects</a>
                 </li>
                 <li>
-                    <a href='#'>skills</a>
+                    <a href='#skills-section' className='underline-animation'>skills</a>
                 </li>
                 <li>
-                    <a href='#'>about</a>
+                    <a href='#about-section' className='underline-animation'>about</a>
                 </li>
                 <li>
-                    <a href='#'>contact me</a>
+                    <a href='#contact-section' className='underline-animation'>contact me</a>
                 </li>
             </ul>
        </div>
