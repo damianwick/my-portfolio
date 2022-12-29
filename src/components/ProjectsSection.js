@@ -9,22 +9,38 @@ export default function ProjectsSection() {
     const projects = [
         {
         name: 'Dictionary Flashcards', 
-        description: 'project description',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
+        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
+        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
+        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
+        Vestibulum est nisl`,
         imgSource: flashcardsImage
         },
         { 
         name: 'Tumblr Clone',
-        description: 'tumblr clone description',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
+        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
+        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
+        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
+        Vestibulum est nisl`,
         imgSource: tumblrCloneImg
         },
         {
         name: 'Journal Web App',
-        description: 'Journal Web App description',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
+        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
+        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
+        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
+        Vestibulum est nisl`,
         imgSource: journalImg
         },
         {
         name: 'My Portfolio Website',
-        description: 'My Portfolio Website description',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
+        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
+        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
+        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
+        Vestibulum est nisl`,
         imgSource: portfolioImg
         }
     ]
@@ -34,8 +50,7 @@ export default function ProjectsSection() {
                 <h1>PROJECTS</h1>
                 <h1>PROJECTS</h1>
             </div>
-            <h1>//projects</h1>
-            <div className='projects-container'>
+            <div className='projects-container section-container'>
                 <ProjectSlider projects={projects} />
             </div>
         </section>

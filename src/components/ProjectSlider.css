@@ -11,19 +11,19 @@
     grid-template-columns: 3fr 2fr;
     grid-gap: 20px;
 }
-.left-column{
+.projects-left-column{
     grid-column: 1;
 }
-.left-column h2{
-    font-size: 1.25em;
+.projects-left-column h2{
+    font-size: 1.5em;
 }
-.left-column p{
+.projects-left-column p{
     font-size: 1em;
 }
 .project-buttons{
     margin-top: 70px;
 }
-.right-column{
+.projects-right-column{
     grid-column: 2;
 }
 .project-btn{
@@ -34,18 +34,19 @@ picture{
     height: 100%;
 }
 img{
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 .navigationBtns{
     width: 300px;
     height: 35px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
     margin: 50px auto;
 }
 .navigationBtns button{
+    font-size: 1.25em;
+    color: #038DA0;
     background-color: transparent;
     border: none;
     cursor: pointer; 
@@ -55,4 +56,47 @@ img{
 }
 .previousProjectBtn img{
     transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 1300px) {
+    .navigationBtns button{
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .project-slider-container{
+        width: 100%;
+    }
+    .single-project-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: pink;
+    }
+    .projects-right-column{
+        height: 30%;
+    }
+    .projects-right-column picture{
+        height: 100%;
+    }
+    .projects-right-column picture img{
+        object-fit: contain;
+    } 
+    .projects-left-column{
+        background-color: olive;
+    }
+    
+    .projects-left-column h2{
+        font-size: 1.25em;
+        margin: 5px 0;
+    }    
+    .projects-left-column p{
+        margin: 0;
+    }
+    .project-buttons{
+        margin-top: 20px;
+    }
+    .navigationBtns {
+        display: none;
+    }
 }

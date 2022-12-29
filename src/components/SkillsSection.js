@@ -14,7 +14,6 @@ export default function SkillsSection() {
             <div className='background-signs'>
                 <h1>SKILLS</h1>
             </div>
-            <h1>//skills</h1>
             <div className="tiles-container">
                 <div className='top-row'>
                 <div className="tile">

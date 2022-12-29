@@ -11,7 +11,7 @@ export default function IntroSection() {
         <div className='downBtn'>
             <p>Let's go!</p>
             <div>
-                <a href='#projects-section'>
+                <a href='#projects-section' className='down-arrow'>
                     <img src={arrow} />
                 </a>
             </div>

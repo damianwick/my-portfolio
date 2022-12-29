@@ -9,9 +9,8 @@ export default function AboutSection() {
                 <h1>ABOUT</h1>
                 <h1>ME</h1>
             </div>
-            <h1>//about</h1>
             <div className='about-container'>
-                <div className='left-column'>
+                <div className='about-left-column'>
                     <h2>Hi, I'm Damian</h2>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
@@ -26,7 +25,7 @@ export default function AboutSection() {
                     </p>
                     <a href='#' type='button' className='resume-btn btn'>Resume</a>
                 </div>
-                <div className='right-column'>
+                <div className='about-right-column'>
                     <div className='graphic-container'>
                         <img src={codeGraphic}/>
                     </div>
