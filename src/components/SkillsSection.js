@@ -15,7 +15,7 @@ export default function SkillsSection() {
                 <h1>SKILLS</h1>
             </div>
             <div className="tiles-container">
-                <div className='top-row'>
+                
                 <div className="tile">
                     <div className="icon-container">
                         <img src={htmlIcon} />
@@ -40,8 +40,8 @@ export default function SkillsSection() {
                     </div>
                     <span>React</span>
                 </div>
-                </div>
-                <div className='bottom-row'>
+                
+                
                 <div className="tile">
                     <div className="icon-container">
                         <img src={bootstrapIcon} />
@@ -60,7 +60,7 @@ export default function SkillsSection() {
                     </div>
                     <span>Figma</span>
                 </div>
-                </div>
+                
                
             </div>
         </section>

@@ -1,15 +1,9 @@
 .tiles-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-}
-.tiles-container .top-row{
-    display: flex;
-    margin: 0 auto;
-}
-.tiles-container .bottom-row{
-    display: flex;
-    margin: 0 auto;
+    max-width: 1150px ;
 }
 .tile{
     height: 160px;
@@ -30,4 +24,18 @@
 #skills-section .background-signs h1{
     font-size: 100vh;
     color: #96CED3;
+}
+
+@media only screen and (max-width: 1024px) {
+    .tile{
+        margin: 10px;
+        width: 150px;
+        height: 150px; 
+        text-align: center;
+    }
+    .tile:nth-last-child(1) {
+        display: none;
+    }
+    
+
 }
