@@ -44,3 +44,26 @@ form label{
     font-size: 100vh;
     color: #1896A7;
 }
+
+@media only screen and (max-width: 1024px) {
+    form{
+        width: 100%;
+    }
+    #contact-section p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 579px) {
+    .contact-form-first-row{
+        flex-direction: column;
+    }
+    .contact-form-first-row span{
+        width: 100%;
+    }
+    .contact-label {
+        text-align: center;
+    }
+    form{
+        text-align: center;
+    }
+}

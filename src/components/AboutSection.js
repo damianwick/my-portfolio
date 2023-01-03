@@ -1,6 +1,5 @@
 import './AboutSection.css';
 import headshot from '../assets/damian_headshot.jpg'
-import codeGraphic from '../assets/code_graphic.jpg'
 
 export default function AboutSection() {
     return (
@@ -9,8 +8,11 @@ export default function AboutSection() {
                 <h1>ABOUT</h1>
                 <h1>ME</h1>
             </div>
-            <div className='about-container'>
-                <div className='about-left-column'>
+            <div className='about-container'> 
+                <div className='about-inner-container'>
+                    <div className='headshot-container'>
+                        <img src={headshot} />
+                    </div>
                     <h2>Hi, I'm Damian</h2>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
@@ -23,17 +25,8 @@ export default function AboutSection() {
                     , quam sit amet ornare pellentesque, neque arcu lobortis metus, eu feugiat
                     dolor felis sit amet urna. Suspendisse sollicitudin porttitor metus quis tempus.
                     </p>
+                </div>
                     <a href='#' type='button' className='resume-btn btn'>Resume</a>
-                </div>
-                <div className='about-right-column'>
-                    <div className='graphic-container'>
-                        <img src={codeGraphic}/>
-                    </div>
-                    <div className='headshot-container'>
-                        <img src={headshot} />
-                    </div>
-                </div>
-
             </div>
 
         </section>

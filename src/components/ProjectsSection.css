@@ -13,3 +13,7 @@
     left: 500px;
     top: 400px;
 }
+#project-section{
+    height: 100vh;
+    background-color: pink;
+}

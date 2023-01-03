@@ -73,3 +73,9 @@ a img{
         font-size: 0.8em;
     }
 }
+@media only screen and (max-width: 579px) {
+    #intro-section{
+        height: 100vh;
+        margin: 0;
+    }
+}

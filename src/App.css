@@ -15,6 +15,7 @@ section{
     font-weight: 700;
     padding: 0.6em 1.5em;
     cursor: pointer;
+    box-sizing: border-box;
 }
 .btn:hover{
     background-color: #FF8383;
@@ -44,12 +45,20 @@ a{
     .wrapper {
         width: 85%;
     }
+}
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 5px;
+        box-sizing: border-box;
+        width: 100%;
+    }
     .btn{
         font-size: 0.75em;
     }
 }
-@media only screen and (max-width: 1024px) {
-    .wraapper {
-        width: 100%;
+@media only screen and (max-width: 579px){
+    section{
+        height: auto;
+        margin: 50px auto;
     }
 }

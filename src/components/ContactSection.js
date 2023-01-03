@@ -7,9 +7,9 @@ export default function ContactSection() {
                 <h1>CONTACT</h1>
             </div>
            <div className='contact-container'>
-                <div>
+                <div className='contact-label'>
                     <p>
-                    Would you like us to work together? Leave me a message using the form below or contact me directly
+                    Would you like us to work together? Please leave a message using the form below or contact me directly
                     at <a href='damianr.wick@gmail.com'><strong>damianr.wick@gmail.com</strong></a>.
                     </p>
                 </div>

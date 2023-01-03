@@ -1,38 +1,35 @@
 .about-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     position: relative;
-    margin: 0 100px;
 }
-.about-left-column h2{
-    margin: 20px auto auto;
+.about-inner-container{
+    text-align: justify;
+    word-break: break-all;
+    /* background-color: azure; */
+}
+.about-inner-container h2{
+    margin: 0 0 10px;
     font-size: 1.5em;
 }
-.resume-btn{
-    position: absolute;
-    bottom: 20px;
+.about-inner-container p{
+    margin: 10px 0 0;
 }
-.about-right-column{
-    overflow: hidden;
+.resume-btn{
+    align-self: flex-start;
+    position: relative;
+    margin-top: -44px;  
 }
 .headshot-container{
-    height: 300px;
-    position: relative;
-    margin-top: -130px;
-    left: 100px;
-    z-index: 2;
+    width: 350px;
+    height: 100%;
+    float: right;
+    margin-left: 20px;       
 }
 .headshot-container img{
-    object-fit: contain;
-}
-.graphic-container{
-    position: relative;
-    left: 210px;
-    height: 250px; 
-}
-.graphic-container img{
-    align-self: center;
+    width: 100%;
+    /* align-self: center; */
     object-fit: contain;
 }
 #about-section .background-signs h1{
@@ -49,4 +46,26 @@
     position: absolute;
     left: 950px;
     top: 400px;
+}
+
+@media only screen and (max-width: 890px) {
+    .resume-btn {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 678px) {
+    #about-section{
+        height: auto;
+    }
+    .about-inner-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-inner-container h2{
+        margin-top:10px ;
+    }
+    .headshot-container{
+        margin: 0;
+        width: 100%;
+    }   
 }
