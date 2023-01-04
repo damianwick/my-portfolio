@@ -46,13 +46,36 @@
 
 @media only screen and (max-width: 1024px) {
     .nav{
-        padding: 10px 10px 0;
-        justify-content: flex-end;
+        padding: 10px 10px 10px;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        background-color: #FEFCF8;
+    }
+    #hamburger-menu{
+        display: block;
     }
     .logo-container{
-        display: none;
+        width: 50px;
     }
     .nav-list{
-        display: none;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 35px;
+        padding:0 ;
+        text-align: center;
+        background-color: inherit ;
+    }
+    .nav-list li{
+        height: 40px;
+        display: flex;    
+    }
+    .nav-list li a{
+        margin: auto;
+    }
+    
+    .nav-list li:hover{
+        background-color: #FF8383;
     }
 }

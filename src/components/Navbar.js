@@ -1,26 +1,51 @@
 import logo from '../assets/damianw_logo2_black.svg'
 import './Navbar.css';
+import Hamburger from './Hamburger';
+import { useState } from 'react';
 
 export default function Navbar() {
+ const [ isHamburgerOpen, setHamburgerState ] = useState(false);
+
+ const toggleHamburger = () => {
+    setHamburgerState(!isHamburgerOpen)
+ };
+
+ const navBar = document.getElementsByClassName('nav');
+
     return (
-       <div className='nav'>
-            <a className='logo-container' href='../../public/index.html'>
-                <img src={logo}/>
-            </a>
-            <ul className='nav-list'>
-                <li>
-                    <a href='#projects-section' className='underline-animation'>projects</a>
-                </li>
-                <li>
-                    <a href='#skills-section' className='underline-animation'>skills</a>
-                </li>
-                <li>
-                    <a href='#about-section' className='underline-animation'>about</a>
-                </li>
-                <li>
-                    <a href='#contact-section' className='underline-animation'>contact me</a>
-                </li>
-            </ul>
-       </div>
+        <>
+            <div className='nav'>
+                    <a className='logo-container' href='../../public/index.html'>
+                        <img src={logo}/>
+                    </a>
+                    <div className='hamburger' onClick={toggleHamburger}>
+                        <Hamburger isActive={isHamburgerOpen}/>
+                    </div>
+                    
+                    <ul className='nav-list'>
+                        <li>
+                            <a href='#projects-section' className='underline-animation'>projects</a>
+                        </li>
+                        <li>
+                            <a href='#skills-section' className='underline-animation'>skills</a>
+                        </li>
+                        <li>
+                            <a href='#about-section' className='underline-animation'>about</a>
+                        </li>
+                        <li>
+                            <a href='#contact-section' className='underline-animation'>contact me</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <style jsx>{`
+                @media only screen and (max-width: 1024px) {
+                    .nav-list{
+                        display: ${isHamburgerOpen ? 'block' : 'none'};   
+                    }
+                }
+            `}    
+            </style>
+        </>
     )
 }

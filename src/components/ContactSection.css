@@ -20,7 +20,7 @@ form{
     flex-direction: column;
     width: 49%;
 }
-form input{
+form input:nth-child(-n+3){
     height: 40px;
 }
 form textarea{
@@ -65,5 +65,14 @@ form label{
     }
     form{
         text-align: center;
+    }
+    form input:nth-child(-n+3){
+        height: 30px;
+    }
+    form label{
+        margin: 5px;
+    }
+    .form-btn{
+        margin: 10px 0;
     }
 }
