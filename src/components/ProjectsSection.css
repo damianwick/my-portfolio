@@ -1,19 +1,36 @@
 #projects-section .background-signs h1{
-    font-size: 60vh;
+
 }
 
 #projects-section .background-signs h1:nth-child(1){
-    color: #CAE5E6;
+    color: #CEE7E7;
+    font-size: 30em;
     position: absolute;
+    top: 150px;
     left: -500px;
 }
 #projects-section .background-signs h1:nth-child(2){
-    color: #BBDEE0;
+    color: #BCDFE1;
+    font-size: 40em;
     position: absolute;
     left: 500px;
-    top: 400px;
+    top: 600px;
 }
 #project-section{
     height: 100vh;
     background-color: pink;
+}
+@media only screen and (max-width: 1920px) {
+    #projects-section .background-signs h1:nth-child(1){
+        color: #C5E2E3;
+        top: 150px;
+        left: -500px;
+    }
+    #projects-section .background-signs h1:nth-child(2){
+        color: #B7DCDF;
+        font-size: 40em;
+        position: absolute;
+        left: 500px;
+        top: 600px;
+    }
 }

@@ -41,8 +41,36 @@ form label{
     align-self: flex-end;
 }
 #contact-section .background-signs h1{
-    font-size: 100vh;
-    color: #1896A7;
+    position: relative;
+}
+#contact-section .background-signs h1:nth-child(1){
+    font-size: 30em;
+    left: -350px;
+    top: 150px;
+    color: #2EA0AF;
+}
+
+#contact-section .background-signs h1:nth-child(2){
+    font-size: 30em;
+    left: 250px;
+    top: 150px;
+    color: #1695A6;
+}
+
+@media only screen and (max-width: 1920px) {
+    #contact-section .background-signs h1:nth-child(1){
+        font-size: 30em;
+        left: -350px;
+        top: 50px;
+        color: #2EA0AF;
+    }
+    
+    #contact-section .background-signs h1:nth-child(2){
+        font-size: 30em;
+        left: 250px;
+        top: 20px;
+        color: #1695A6;
+    }
 }
 
 @media only screen and (max-width: 1024px) {

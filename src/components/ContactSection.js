@@ -1,9 +1,11 @@
 import './ContactSection.css'
 
 export default function ContactSection() {
+    console.log(window.innerHeight + ' ' + window.innerWidth)
     return (
         <section id="contact-section">
              <div className='background-signs'>
+                <h1>CONTACT</h1>
                 <h1>CONTACT</h1>
             </div>
            <div className='contact-container'>

@@ -32,19 +32,38 @@
     object-fit: contain;
 }
 #about-section .background-signs h1{
-    font-size: 60vh;
+    font-size: 30em;
 }
 #about-section .background-signs h1:nth-child(1){
-    color: #6BBBC4;
+    color: #69BAC3;
     position: absolute;
-    left: -400px;
+    top: 200px;
+    left: -100px;
 }
 #about-section .background-signs h1:nth-child(2){
     color: transparent;
-    -webkit-text-stroke: 4px #4FAFBB;
+    -webkit-text-stroke: 4px #51AFBB;
+    font-weight: 500;
     position: absolute;
-    left: 950px;
-    top: 400px;
+    left: 550px;
+    top: 700px;
+}
+
+@media only screen and (max-width: 1920px) {
+    #about-section .background-signs h1:nth-child(1){
+        color: #69BAC3;
+        position: absolute;
+        top: 100px;
+        left: -100px;
+    }
+    #about-section .background-signs h1:nth-child(2){
+        color: transparent;
+        -webkit-text-stroke: 4px #51AFBB;
+        font-weight: 500;
+        position: absolute;
+        left: 550px;
+        top: 450px;
+    }
 }
 
 @media only screen and (max-width: 890px) {

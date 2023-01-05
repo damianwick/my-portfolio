@@ -3,6 +3,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }  
 .wrapper{
     max-width: 1200px;
@@ -22,6 +23,7 @@ section{
 }
 .background-signs{
     position: absolute;
+    
     font-family: 'Bebas Neue', cursive;
     left: 0;
     display: flex;
@@ -61,4 +63,5 @@ a{
         height: auto;
         margin: 50px auto;
     }
+    
 }
