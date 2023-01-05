@@ -54,6 +54,13 @@ form label{
     }
 }
 @media only screen and (max-width: 579px) {
+    #contact-section{
+        margin: 100px auto;
+    }
+    #contact-section p{
+        font-size: 1em;
+        
+    }
     .contact-form-first-row{
         flex-direction: column;
     }

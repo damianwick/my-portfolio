@@ -1,10 +1,10 @@
 #hamburger-menu{
     height: 25px;
-    width: 50px;
+    width: 40px;
     display: none;
 }
 #hamburger-menu span{
-    width: 50px;
+    width: 40px;
     height: 5px;
     position: absolute;
     background-color: #2F2F2F;
@@ -23,9 +23,9 @@
         display: block;
     }
     #hamburger-menu span{
-        transition: transform 0.2s linear 0s;
+        transition: transform 0.1s linear 0s;
     }
     #hamburger-menu span:nth-child(2){
-        transition: opacity 0.1s linear 0s;
+        transition: opacity 0s linear 0.05s;
     }
 }

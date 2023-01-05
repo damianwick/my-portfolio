@@ -1,15 +1,49 @@
 .intrographic-container{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }  
 .intro-graphic-container{
-    max-height: 300px;
-    margin: 0 auto 50px;
+    height: 300px;
+    margin: 0 auto;
     top: 0;
     left: 0; 
 }
+.eyes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 22%;
+    left: 49%;
+    width: 90px;
+    height: 50px;
+}
+.eye{
+    height: 100%;
+    width: 49%;
+    position: relative;
+    border-radius: 50%;
+}
+.eye1{
+    height: 20px;
+    width: 20px;
+    left: 9px;
+}
+.eye2{
+    width: 15px;
+    height: 15px;
+    right: 15px;
+}
+.pupil{
+    width: 7px;
+    height: 7px;
+    border-radius:50% ;
+    background-color: black;
+}
+
 .intro-headline p{
     font-size: 1.75em;
     letter-spacing: -1px;
@@ -42,19 +76,47 @@
      }   
      .intro-headline h1{
         font-size: 3em;
-     }   
+     }
+     .eyes{
+        width: 70px;
+        height: 40px;
+     }
+     .eye1{
+        height: 18px;
+        width: 18px;
+        top: 3px;
+        left: 12px;
+     }
+     .eye2{
+        width: 13px;
+        height: 13px;
+        right: 8px;
+     }
 }
 
 @media only screen and (max-width: 1024px) {
  .intro-graphic-container{
     height: 200px;
  }   
- /* .intro-headline p{
-    font-size: 1em ;
- }    */
  .intro-headline h1{
     font-size: 2.4em;
  }   
+ .eyes{
+    top: 21%;
+    width: 60px;
+    height: 30px;
+ }
+ .eye1{
+    height: 16px;
+    width: 16px;
+    top: 0px;
+    left: 12px;
+ }
+ .eye2{
+    width: 11px;
+    height: 11px;
+    right: 8px;
+ }
 }
 @media only screen and (max-width: 579px) {
     .intro-headline p{

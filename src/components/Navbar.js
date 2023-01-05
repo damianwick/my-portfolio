@@ -1,7 +1,7 @@
 import logo from '../assets/damianw_logo2_black.svg'
 import './Navbar.css';
 import Hamburger from './Hamburger';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 export default function Navbar() {
  const [ isHamburgerOpen, setHamburgerState ] = useState(false);
@@ -9,8 +9,6 @@ export default function Navbar() {
  const toggleHamburger = () => {
     setHamburgerState(!isHamburgerOpen)
  };
-
- const navBar = document.getElementsByClassName('nav');
 
     return (
         <>
@@ -41,7 +39,10 @@ export default function Navbar() {
             <style jsx>{`
                 @media only screen and (max-width: 1024px) {
                     .nav-list{
-                        display: ${isHamburgerOpen ? 'block' : 'none'};   
+                        visibility: ${isHamburgerOpen ? 'visible' : 'none'};
+                        opacity: ${isHamburgerOpen ? '1' : '0'};
+                        transform: ${isHamburgerOpen ? 'translateY(0)' : 'translateY(-200%)'}; 
+                        transition: transform 0.1s linear 0s;   
                     }
                 }
             `}    

@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 .single-project-container{
     display: grid;
@@ -42,7 +43,7 @@ img{
     height: 35px;
     display: flex;
     justify-content: space-around;   
-    margin: 50px auto;
+    margin: 50px auto 0;
 }
 .navigationBtns button{
     font-size: 1.25em;

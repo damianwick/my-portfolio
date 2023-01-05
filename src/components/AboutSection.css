@@ -7,7 +7,6 @@
 .about-inner-container{
     text-align: justify;
     word-break: break-all;
-    /* background-color: azure; */
 }
 .about-inner-container h2{
     margin: 0 0 10px;
@@ -62,10 +61,19 @@
         flex-direction: column;
     }
     .about-inner-container h2{
-        margin-top:10px ;
+        margin: 10px 0 5px;
+    }
+    .about-inner-container p{
+        margin: 0;
     }
     .headshot-container{
         margin: 0;
         width: 100%;
     }   
+}
+
+@media only screen and (max-width: 579px) {
+    .resume-btn{
+        align-self: center ;
+    }
 }

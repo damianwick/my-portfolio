@@ -11,6 +11,7 @@
 }
 .logo-container{
     width: 120px;
+    z-index: 3;
 }
 .logo-container img{
     width: 100%;
@@ -52,9 +53,6 @@
         position: fixed;
         background-color: #FEFCF8;
     }
-    #hamburger-menu{
-        display: block;
-    }
     .logo-container{
         width: 50px;
     }
@@ -63,9 +61,14 @@
         position: absolute;
         left: 0;
         top: 35px;
+        transform: translateY(-100%);
         padding:0 ;
         text-align: center;
-        background-color: inherit ;
+        background-color: inherit;
+      
+    }
+    .hamburger{
+        z-index: 3;
     }
     .nav-list li{
         height: 40px;
@@ -74,7 +77,6 @@
     .nav-list li a{
         margin: auto;
     }
-    
     .nav-list li:hover{
         background-color: #FF8383;
     }

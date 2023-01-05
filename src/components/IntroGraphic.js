@@ -1,15 +1,39 @@
 import './IntroGraphic.css'
-import vectorFace from '../assets/vector-face.svg'
+import vectorFace from '../assets/man_face.png'
 
 export default function IntroGraphic() {
+    const pupils = document.getElementsByClassName('eye');
+    
+        document.body.addEventListener('mousemove', (event) => {
+            for(let pupil of pupils) {
+                let pupilX = pupil.getBoundingClientRect().left + pupil.clientWidth / 2;
+                let pupilY = pupil.getBoundingClientRect().top + pupil.clientHeight / 2;
+
+                let x = event.clientX;
+                let y = event.clientY;
+
+                let radian = Math.atan2(x - pupilX, y - pupilY);
+                let rotationDegrees = radian * (180 / Math.PI) * -1 + 180;
+
+                pupil.style.transform = 'rotate(' + rotationDegrees + 'deg)';
+            }
+        })
+    
     return (
         <div className='intrographic-container'>
             <div className="intro-graphic-container">
+                <div className='eyes'>
+                    <div className='eye eye1'>
+                        <div className='pupil pupil1'></div>
+                    </div>
+                    <div className='eye eye2'>
+                        <div className='pupil pupil2'></div>
+                    </div>
+                </div>
                 <img src={vectorFace}/>
             </div>
             <div className='intro-headline'>
                 <p>I'm a</p>
-                {/* <h1><span>FRONT-END</span> <span>WEB</span> <span>DEVELOPER</span></h1> */}
                 <div><span>FRONT-END</span> <span>WEB</span> <span>DEVELOPER</span></div>
                 <p>looking to step into the industry</p>
             </div>

@@ -12,7 +12,7 @@ export default function Hamburger({ isActive }) {
             <style jsx>{`
                 @media only screen and (max-width: 1024px) {
                     #hamburger span {
-                        width: ${isActive ? '30px' : '50px'}
+                        width: ${isActive ? '25px' : '40px'}
                     }
                     #hamburger-menu span:nth-child(2) {
                         opacity: ${isActive ? '0' : '1'};
