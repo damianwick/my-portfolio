@@ -18,6 +18,9 @@ footer p{
 .footer-icons-container a:nth-child(1){
     margin-right: 24px ;
 }
+.footer-icons-container a{
+    transition: color 0.1s ease-in;
+}
 .footer-icons-container a:hover {
     color: #FF8383;
 }

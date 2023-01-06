@@ -17,6 +17,7 @@ section{
     padding: 0.6em 1.5em;
     cursor: pointer;
     box-sizing: border-box;
+    transition: background-color 0.1s ease-in;
 }
 .btn:hover{
     background-color: #FF8383;

@@ -31,7 +31,7 @@
     left: 0;
     bottom: 0;
     width: 0;
-    transition: width 0.4s ease-out;
+    transition: width 0.1s ease-out;
 }
 .underline-animation:hover::before {
     width: 100%;
@@ -64,8 +64,7 @@
         transform: translateY(-100%);
         padding:0 ;
         text-align: center;
-        background-color: inherit;
-      
+        background-color: inherit; 
     }
     .hamburger{
         z-index: 3;
