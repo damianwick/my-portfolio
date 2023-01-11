@@ -1,7 +1,6 @@
 import './ContactSection.css'
 
 export default function ContactSection() {
-    console.log(window.innerHeight + ' ' + window.innerWidth)
     return (
         <section id="contact-section">
              <div className='background-signs'>
@@ -32,9 +31,7 @@ export default function ContactSection() {
                     <textarea type='text' name='message' id='message'/>
                     <input type='submit' className='btn form-btn'/>
                 </form>
-
             </div> 
-            
         </section>
     )
 }

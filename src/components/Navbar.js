@@ -20,7 +20,7 @@ export default function Navbar() {
                         <Hamburger isActive={isHamburgerOpen}/>
                     </div>
                     
-                    <ul className='nav-list'>
+                    <ul className='nav-list' onClick={toggleHamburger}>
                         <li>
                             <a href='#projects-section' className='underline-animation'>projects</a>
                         </li>

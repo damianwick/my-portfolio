@@ -3,7 +3,6 @@ footer{
     font-size: 1rem;
     margin: 48px auto;
     color: #FFF9F9;
-    
 }
 footer p{
     font-size: 1em;
@@ -23,4 +22,9 @@ footer p{
 }
 .footer-icons-container a:hover {
     color: #FF8383;
+}
+@media only screen and (max-width: 1024px) {
+    footer{
+        margin-top: 10px;
+    }
 }

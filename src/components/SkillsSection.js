@@ -1,5 +1,4 @@
 import './SkillsSection.css'
-
 import htmlIcon from '../assets/html5.svg'
 import cssIcon from '../assets/css3.svg'
 import jsIcon from '../assets/js.svg'
@@ -58,7 +57,6 @@ export default function SkillsSection() {
                     <span>Figma</span>
                 </div>
             </div>
-        </section>
-        
+        </section>       
     )
 }
