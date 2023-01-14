@@ -9,7 +9,7 @@ export default function Hamburger({ isActive }) {
                 <span></span>
             </div>
 
-            <style jsx>{`
+            <style jsx="true">{`
                 @media only screen and (max-width: 1024px) {
                     #hamburger span {
                         width: ${isActive ? '25px' : '40px'}

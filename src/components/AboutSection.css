@@ -28,7 +28,6 @@
 }
 .headshot-container img{
     width: 100%;
-    /* align-self: center; */
     object-fit: contain;
 }
 #about-section .background-signs h1{
@@ -49,6 +48,22 @@
     top: 700px;
 }
 
+@media only screen and (min-width: 2561px) {
+    #about-section .background-signs h1:nth-child(1){
+        color: #69BAC3;
+        top: 300px;
+        left: -80px;
+        font-size: 35em;
+    }
+    #about-section .background-signs h1:nth-child(2){
+        color: transparent;
+        -webkit-text-stroke: 4px #57B2BE;
+        font-weight: 500;
+        font-size: 35em;
+        left: 600px;
+        top: 750px;
+    }
+}
 @media only screen and (max-width: 1920px) {
     #about-section .background-signs h1:nth-child(1){
         color: #69BAC3;
@@ -65,7 +80,6 @@
         top: 450px;
     }
 }
-
 @media only screen and (max-width: 890px) {
     .resume-btn {
         margin-top: 20px;

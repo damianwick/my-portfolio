@@ -17,17 +17,17 @@ export default function ContactSection() {
                 <form>
                     <div className='contact-form-first-row'>
                         <span>
-                            <label for="name">Name</label>
+                            <label htmlFor="name">Name</label>
                             <input type='text' name='name' id='name'/>
                         </span>
                         <span>
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type='text' name='email' id='email'/>
                         </span>
                     </div>  
-                    <label for="subject">Subject</label>
+                    <label htmlFor="subject">Subject</label>
                     <input type='text' name='subject' id='subject'/>
-                    <label for="message">Message</label>
+                    <label htmlFor="message">Message</label>
                     <textarea type='text' name='message' id='message'/>
                     <input type='submit' className='btn form-btn'/>
                 </form>

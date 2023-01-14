@@ -24,6 +24,11 @@ export default function ProjectSlider({ projects }) {
                     <h2>{projects[currentIndex].name}</h2>
                     <p>{projects[currentIndex].description}</p>    
                 </div>
+                <div className='iconsContainer'>
+                    {projects[currentIndex].iconSrcList.map(src => {
+                        return <div><img src={src}/></div>
+                    })}
+                </div>
                 <div className='project-buttons'>
                     <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn" target="_blank">Live</a>
                     <a type="button" href={projects[currentIndex].codeLink} className="btn project-btn" target="_blank">Code</a>

@@ -6,6 +6,8 @@ import reactIcon from '../assets/react.svg'
 import bootstrapIcon from '../assets/bootstrap.svg'
 import jqueryIcon from '../assets/jquery.svg'
 import figmaIcon from '../assets/figma.svg'
+import gitIcon from '../assets/git.svg'
+import sassIcon from '../assets/sass.svg'
 
 export default function SkillsSection() {
     return (
@@ -14,6 +16,42 @@ export default function SkillsSection() {
                 <h1>SKILLS</h1>
             </div>
             <div className="tiles-container">
+                <div className="tile">
+                    <div className="icon-container">
+                        <img src={reactIcon} />
+                    </div>
+                    <span>React</span>
+                </div>
+                <div className="tile">
+                    <div className="icon-container">
+                        <img src={jsIcon} />
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div className="tile">
+                    <div className="icon-container">
+                        <img src={jqueryIcon} />
+                    </div>
+                    <span>jQuery</span>
+                </div>
+                <div className="tile">
+                    <div className="icon-container">
+                        <img src={sassIcon} />
+                    </div>
+                    <span>Sass</span>
+                </div>
+                <div className="tile">
+                    <div className="icon-container">
+                        <img src={bootstrapIcon} />
+                    </div>
+                    <span>Bootstrap</span>
+                </div>
+                <div className="tile">
+                    <div className="icon-container">
+                        <img src={gitIcon} />
+                    </div>
+                    <span>Git</span>
+                </div>
                 <div className="tile">
                     <div className="icon-container">
                         <img src={htmlIcon} />
@@ -25,30 +63,6 @@ export default function SkillsSection() {
                         <img src={cssIcon} />
                     </div>
                     <span>CSS</span>
-                </div>
-                <div className="tile">
-                    <div className="icon-container">
-                        <img src={jsIcon} />
-                    </div>
-                    <span>JavaScript</span>
-                </div>
-                <div className="tile">
-                    <div className="icon-container">
-                        <img src={reactIcon} />
-                    </div>
-                    <span>React</span>
-                </div>
-                <div className="tile">
-                    <div className="icon-container">
-                        <img src={bootstrapIcon} />
-                    </div>
-                    <span>Bootstrap</span>
-                </div>
-                <div className="tile">
-                    <div className="icon-container">
-                        <img src={jqueryIcon} />
-                    </div>
-                    <span>jQuery</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">

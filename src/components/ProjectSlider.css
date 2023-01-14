@@ -22,6 +22,20 @@
     text-align: justify;
     font-size: 1em;
 }
+.iconsContainer{
+    display: inline-flex;
+}
+.iconsContainer div{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: #0A90A2;
+}
+.iconsContainer div:nth-last-child(n + 2){
+    margin-right: 20px;
+}
 .project-buttons{
     margin-top: 70px;
 }

@@ -1,7 +1,7 @@
 import logo from '../assets/damianw_logo2_black.svg'
 import './Navbar.css';
 import Hamburger from './Hamburger';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 export default function Navbar() {
  const [ isHamburgerOpen, setHamburgerState ] = useState(false);
@@ -36,7 +36,7 @@ export default function Navbar() {
                     </ul>
             </div>
 
-            <style jsx>{`
+            <style jsx="true">{`
                 @media only screen and (max-width: 1024px) {
                     .nav-list{
                         visibility: ${isHamburgerOpen ? 'visible' : 'none'};

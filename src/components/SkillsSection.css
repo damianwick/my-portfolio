@@ -8,7 +8,7 @@
 .tile{
     height: 160px;
     width: 160px;
-    margin: 40px;
+    margin: 30px;
     text-align: center;
     color: #0A90A2;
     font-weight: 700;
@@ -29,13 +29,18 @@
     top: 350px;
     color: #9CD0D5;
 }
+@media only screen and (min-width: 2561px) {
+    #skills-section .background-signs h1{
+        left: -130px;
+        top: 450px;
+        color: #9CD0D5;
+    }  
+}
 @media only screen and (max-width: 1920px) {
     #skills-section .background-signs h1{
         font-size: 40em;
-        text-align: center;
-        position: relative;
-        left: -50px;
-        top: 140px;
+        left: -60px;
+        top: 160px;
         color: #9CD0D5;
     }   
 }

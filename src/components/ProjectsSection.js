@@ -5,38 +5,51 @@ import tumblrCloneImg from '../assets/tumblr_desktop.jpg'
 import journalImg from '../assets/journal_desktop.jpg'
 import portfolioImg from '../assets/portfolio_desktop.jpg'
 
+import htmlIcon from '../assets/html5.svg'
+import cssIcon from '../assets/css3.svg'
+import jsIcon from '../assets/js.svg'
+import reactIcon from '../assets/react.svg'
+import bootstrapIcon from '../assets/bootstrap.svg'
+import sassIcon from '../assets/sass.svg'
+
+
 export default function ProjectsSection() {
     const projects = [
         {
-        name: 'Dictionary Flashcards', 
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
-        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
-        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
-        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
-        Vestibulum est nisl`,
+        name: 'Dictionary Flashcards (Words API)', 
+        description: `Dictionary Flashcards is a web app, that lets users search for definitions to words 
+        in English. It uses a database from Words API. Every definition can be 
+        added to the list of flashcards, that users can flip through by accessing "Flashcards" tab. The app uses browser’s 
+        local storage to remember the words and their definitions. The interface has 
+        been styled with Bootstrap.   `,
         imgSource: flashcardsImage, 
         liveLink: 'https://cheerful-starburst-1e396c.netlify.app/',
-        codeLink: "https://github.com/damianwick/dictionary-flashcards"
+        codeLink: "https://github.com/damianwick/dictionary-flashcards",
+        iconSrcList: [bootstrapIcon, jsIcon, htmlIcon]
         },
         { 
         name: 'Tumblr Clone',
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
-        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
-        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
-        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
-        Vestibulum est nisl`,
+        description: `HTML clone of the Tumblr’s main page. It is fully responsive,
+         with a side navigation in a mobile view. The goal for this project was to 
+         recreate the website’s layout as closely as possible. 
+         Practicing HTML and CSS skills was the main incentive for starting 
+         the development. Trying to replicate something that has already been built, 
+         in my opinion helps to understand others’ approach to web development.`,
         imgSource: tumblrCloneImg,
         liveLink: "https://fluffy-granita-e2b65a.netlify.app/",
-        codeLink: "https://github.com/damianwick/my-tumblr-clone"
+        codeLink: "https://github.com/damianwick/my-tumblr-clone",
+        iconSrcList: [sassIcon, jsIcon, htmlIcon]
         },
         {
-        name: 'Journal Web App',
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
-        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
-        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
-        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
-        Vestibulum est nisl`,
-        imgSource: journalImg
+        name: 'Journal App',
+        description: `Every portfolio needs a CRUD app, so here is mine. 
+        In Journal App users can not only create entries but also style 
+        them using the formatting tools at the bottom of the text area. 
+        A creation date is displayed above each entry. They can be edited, deleted and expanded.`,
+        imgSource: journalImg,
+        liveLink: "https://chic-blancmange-b37820.netlify.app/",
+        codeLink: "https://github.com/damianwick/journal-app",
+        iconSrcList: [sassIcon, jsIcon, htmlIcon]
         },
         {
         name: 'My Portfolio Website',
@@ -46,7 +59,8 @@ export default function ProjectsSection() {
         Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
         Vestibulum est nisl`,
         imgSource: portfolioImg,
-        codeLink: "https://github.com/damianwick/my-portfolio"
+        codeLink: "https://github.com/damianwick/my-portfolio",
+        iconSrcList: [reactIcon, jsIcon, htmlIcon, cssIcon]
         }
     ];
     return (

@@ -28,7 +28,6 @@ export default function AboutSection() {
                 </div>
                     <a href='#' type='button' className='resume-btn btn'>Resume</a>
             </div>
-
         </section>
     )
 }
