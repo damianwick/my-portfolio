@@ -15,5 +15,7 @@ body {
   background-image: linear-gradient(#FFFCF8, #A4D4D8, #038DA0);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 

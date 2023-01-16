@@ -42,7 +42,7 @@
 .projects-right-column{
     grid-column: 2;
 }
-.project-btn{
+.project-btn:nth-child(1){
     margin: 0 20px 0 0;
 }
 picture{
@@ -83,7 +83,7 @@ img{
     .project-slider-container{
         width: 100%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
     }
     .single-project-container{
@@ -100,18 +100,24 @@ img{
         font-size: 1.25em;
         margin: 20px 0 0;
     }    
+    .projects-left-column{
+        display: flex;
+        flex-direction: column;
+    }
     .projects-left-column p{
-        margin: 0;
+        margin: 10px auto 0;
+    }
+    .iconsContainer{
+        align-self: center;
     }
     .project-buttons{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: none;
+        display: flex;
+        justify-content: center;
         margin-top: 20px;
+
     }
     .project-btn{
-        margin: 0;
-        min-width: 50%;
+        width: 100px;
         text-align: center;
     }
     .navigationBtns {

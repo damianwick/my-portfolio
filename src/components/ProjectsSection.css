@@ -19,10 +19,9 @@
         left: -500px;
     }
     #projects-section .background-signs h1:nth-child(2){
-        color: #B9DDE0;
-        font-size: 40em;
-        position: absolute;
-        left: 500px;
+        color: #bfe0e2;
+        font-size: 35em;
+        left: 0%;
         top: 800px;
     }
 }
@@ -33,11 +32,23 @@
         left: -500px;
     }
     #projects-section .background-signs h1:nth-child(2){
-        color: #B7DCDF;
+        color: #bcdee0;
         font-size: 30em;
+        left: 10%;
+        top: 50%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #projects-section .background-signs h1:nth-child(1){
+        display: none;
+    }
+    #projects-section .background-signs h1:nth-child(2){
+        color: #b9dcdf;
+        font-size: 25em;
         position: absolute;
-        left: 500px;
-        top: 450px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -20%);
     }
 }
 

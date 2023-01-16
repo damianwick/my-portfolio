@@ -6,17 +6,16 @@ import arrow from '../assets/arrow.svg'
 export default function IntroSection() {
     return (
         <section id='intro-section'>
-        <Navbar />
-        <IntroGraphic />
-        <div className='downBtn'>
-            <p>Let's go!</p>
-            <div>
-                <a href='#projects-section' className='down-arrow'>
-                    <img src={arrow} />
-                </a>
+            <Navbar />
+            <IntroGraphic />
+            <div className='downBtn'>
+                <p>Let's go!</p>
+                <div>
+                    <a href='#projects-section' className='down-arrow'>
+                        <img src={arrow} />
+                    </a>
+                </div>
             </div>
-        </div>
         </section>
-
     )
 }

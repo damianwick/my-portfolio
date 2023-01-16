@@ -80,6 +80,19 @@
         top: 450px;
     }
 }
+@media only screen and (max-width: 1024px) {
+    .about-inner-container p{
+        margin: 0;
+    }
+    #about-section .background-signs h1:nth-child(1){
+        top: 10%;
+        left: -10%;
+    }
+    #about-section .background-signs h1:nth-child(2){
+        left: 40%;
+        top: 50%;
+    }
+}
 @media only screen and (max-width: 890px) {
     .resume-btn {
         margin-top: 20px;
@@ -102,11 +115,9 @@
     .headshot-container{
         margin: 0;
         width: 100%;
-    }   
-}
-
-@media only screen and (max-width: 579px) {
-    .resume-btn{
-        align-self: center ;
     }
+    .resume-btn {
+        margin-top: 20px;
+        align-self: center;
+    }   
 }

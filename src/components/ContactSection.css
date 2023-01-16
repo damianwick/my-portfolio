@@ -9,7 +9,10 @@ form{
     width: 60%;
     margin: 30px auto;
     font-family: 'Space Grotesk', sans-serif;
-    color: #2F2F2F ;
+    color: #2F2F2F;
+}
+.contact-container{
+    z-index: 3;
 }
 .contact-form-first-row{
     display: flex;
@@ -84,7 +87,13 @@ form label{
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {    
+    .contact-container{
+        z-index: 0;
+    }
+    .contact-label {
+        text-align: center;
+    }
     form{
         width: 100%;
     }
@@ -95,11 +104,16 @@ form label{
         height: 80vh;
         margin: 100px auto 20px;
     }
+    #contact-section .background-signs h1:nth-child(1){
+        font-size: 23em;
+        left: -12%;
+        top: 5%;
+    }
+    #contact-section .background-signs h1:nth-child(2){
+        display: none;
+    }
 }
 @media only screen and (max-width: 579px) {
-    /* #contact-section{
-        margin: 100px auto 20px;
-    } */
     #contact-section p{
         font-size: 1em;
     }
@@ -108,9 +122,6 @@ form label{
     }
     .contact-form-first-row span{
         width: 100%;
-    }
-    .contact-label {
-        text-align: center;
     }
     form{
         text-align: center;

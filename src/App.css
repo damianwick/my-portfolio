@@ -1,3 +1,7 @@
+.app{
+    max-width: 100vw;
+    overflow: hidden;
+}
 section{
     height: 100vh;
     display: flex;
@@ -9,7 +13,6 @@ section{
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
 }
 .btn{
     background-color: #FFF9F9;
@@ -32,7 +35,6 @@ section{
     z-index: -1;
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 .background-signs h1{
     margin: 0;

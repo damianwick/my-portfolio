@@ -55,5 +55,12 @@
     .tile:nth-last-child(1) {
         display: none;
     }
+    #skills-section .background-signs h1{
+        font-size: 35em;
+        left: 50%;
+        top: 50%;
+        transform: translate(-70%, -50%);
+        color: #9CD0D5;
+    } 
 }
  

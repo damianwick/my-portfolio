@@ -53,11 +53,10 @@ export default function ProjectsSection() {
         },
         {
         name: 'My Portfolio Website',
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisi dolor,
-        venenatis consectetur convallis in, elementum id augue. Etiam in libero et
-        magna dictum varius. Curabitur laoreet lectus et urna luctus sollicitudin.
-        Proin dapibus nunc dolor, sit amet vehicula eros pulvinar et. Sed id scelerisque elit. 
-        Vestibulum est nisl`,
+        description: `A fully responsive React portfolio website in a landing page format. 
+        This project was an opportunity for me to polish my react skills and solidify 
+        what I had already known about the library. In addition, I learned how to make 
+        a contact form work using PHP and how to deploy the entire project. `,
         imgSource: portfolioImg,
         codeLink: "https://github.com/damianwick/my-portfolio",
         iconSrcList: [reactIcon, jsIcon, htmlIcon, cssIcon]
@@ -73,5 +72,5 @@ export default function ProjectsSection() {
                     <ProjectSlider projects={projects} />
                 </div>
             </section>
-    )
-}
+    );
+};
