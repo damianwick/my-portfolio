@@ -15,6 +15,16 @@ export default function ProjectSlider({ projects }) {
         const nextIndex = lastProjectIndex ? 0 : currentIndex + 1;
         setCurrentIndex(nextIndex);
     };
+    const liveBtn = () => {
+        if(projects[currentIndex].liveLink) {
+            return <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn" target="_blank">Live</a>
+        }
+    }
+    const codeBtn = () => {
+        if(projects[currentIndex].codeLink) {
+            return <a type="button" href={projects[currentIndex].codeLink} className="btn project-btn" target="_blank">Code</a>
+        }
+    }
 
     return (
         <div className='project-slider-container'>
@@ -30,8 +40,8 @@ export default function ProjectSlider({ projects }) {
                     })}
                 </div>
                 <div className='project-buttons'>
-                    <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn" target="_blank">Live</a>
-                    <a type="button" href={projects[currentIndex].codeLink} className="btn project-btn" target="_blank">Code</a>
+                    {liveBtn()}
+                    {codeBtn()}
                 </div>
             </div>
             <div className="projects-right-column">
