@@ -17,12 +17,12 @@ export default function ProjectSlider({ projects }) {
     };
     const liveBtn = () => {
         if(projects[currentIndex].liveLink) {
-            return <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn" target="_blank">Live</a>
+            return <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn" target="_blank">See Live</a>
         }
     }
     const codeBtn = () => {
         if(projects[currentIndex].codeLink) {
-            return <a type="button" href={projects[currentIndex].codeLink} className="btn project-btn" target="_blank">Code</a>
+            return <a type="button" href={projects[currentIndex].codeLink} className="btn project-btn" target="_blank">View Code</a>
         }
     }
 

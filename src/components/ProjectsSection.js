@@ -12,7 +12,6 @@ import reactIcon from '../assets/react.svg'
 import bootstrapIcon from '../assets/bootstrap.svg'
 import sassIcon from '../assets/sass.svg'
 
-
 export default function ProjectsSection() {
     const projects = [
         {
@@ -29,11 +28,11 @@ export default function ProjectsSection() {
         },
         { 
         name: 'Tumblr Clone',
-        description: `HTML clone of the Tumblr’s main page. It is fully responsive,
-         with a side navigation in a mobile view. The goal for this project was to 
+        description: `A fully responsive HTML clone of the Tumblr’s main page. The goal for this project was to 
          recreate the website’s layout as closely as possible. 
          Practicing HTML and CSS skills was the main incentive for starting 
-         the development. Trying to replicate something that has already been built, 
+         the development, although a little bit of JavaScript has been used to handle the functionality of the side navigation. 
+         Trying to replicate something that has already been built, 
          in my opinion helps to understand others’ approach to web development.`,
         imgSource: tumblrCloneImg,
         liveLink: "https://fluffy-granita-e2b65a.netlify.app/",
@@ -45,7 +44,7 @@ export default function ProjectsSection() {
         description: `Every portfolio needs a CRUD app, so here is mine. 
         In Journal App users can not only create entries but also style 
         them using the formatting tools at the bottom of the text area. 
-        A creation date is displayed above each entry. They can be edited, deleted and expanded.`,
+        Each entry has a date of when it was created, that is displayed above it. Entries can be edited, deleted and expanded.`,
         imgSource: journalImg,
         liveLink: "https://chic-blancmange-b37820.netlify.app/",
         codeLink: "https://github.com/damianwick/journal-app",

@@ -35,7 +35,7 @@ export default function IntroGraphic() {
             <div className='intro-headline'>
                 <p>I'm a</p>
                 <div><span>FRONT-END</span> <span>WEB</span> <span>DEVELOPER</span></div>
-                <p>looking to step into the industry</p>
+                <p>ready to take the next step in my career</p>
             </div>
         </div>
     )
