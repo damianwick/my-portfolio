@@ -42,7 +42,7 @@
 .projects-right-column{
     grid-column: 2;
 }
-.project-btn:nth-child(1){
+.live-btn{
     margin: 0 20px 0 0;
 }
 picture{
@@ -125,4 +125,9 @@ img{
         bottom: 0;
     }
     
+}
+@media only screen and (max-height: 579px) {
+    .projects-right-column picture img{
+        width: 500px;
+    } 
 }

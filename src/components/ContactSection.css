@@ -101,8 +101,7 @@ form label{
         width: 100%;
     }
     #contact-section{
-        height: 80vh;
-        margin: 100px auto 20px;
+        margin: 0 auto 0;
     }
     #contact-section .background-signs h1:nth-child(1){
         font-size: 23em;
@@ -134,5 +133,16 @@ form label{
     }
     .form-btn{
         margin: 10px 0;
+    }
+}
+@media only screen and (max-height: 579px) {   
+    form input:nth-child(-n+3){
+        height: 30px;
+    }
+    form label{
+        margin: 5px 0 2px;
+    }
+    .form-btn{
+        margin: 5px 0;
     }
 }

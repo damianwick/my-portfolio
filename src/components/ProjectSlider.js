@@ -17,7 +17,7 @@ export default function ProjectSlider({ projects }) {
     };
     const liveBtn = () => {
         if(projects[currentIndex].liveLink) {
-            return <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn" target="_blank">See Live</a>
+            return <a type="button" href={projects[currentIndex].liveLink} className="btn project-btn live-btn" target="_blank">See Live</a>
         }
     }
     const codeBtn = () => {

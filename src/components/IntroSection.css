@@ -79,3 +79,8 @@ a img{
         margin: 0;
     }
 }
+@media only screen and (max-height: 579px) {
+ .downBtn{
+    display: none;
+ }   
+}
