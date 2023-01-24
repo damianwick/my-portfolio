@@ -16,14 +16,14 @@ export default function ContactSection() {
                 </div>
                 <form>
                     <div className='contact-form-first-row'>
-                        <span>
+                        <div>
                             <label htmlFor="name">Name</label>
                             <input type='text' name='name' id='name'/>
-                        </span>
-                        <span>
+                        </div>
+                        <div>
                             <label htmlFor="email">Email</label>
                             <input type='text' name='email' id='email'/>
-                        </span>
+                        </div>
                     </div>  
                     <label htmlFor="subject">Subject</label>
                     <input type='text' name='subject' id='subject'/>

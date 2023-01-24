@@ -70,6 +70,11 @@
         padding: 10px;
     }
 }
+@media only screen and (max-width: 379px){
+    .tile{
+        margin: 10px auto;
+    }
+}
 @media only screen and (max-height: 579px) {
     .tiles-container{
         width: 680px;

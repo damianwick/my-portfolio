@@ -1,4 +1,4 @@
-#contact-section p{
+.contact-label p{
     width: 60%;
     margin: 0 auto;
     font-size: 1.25em;
@@ -18,7 +18,7 @@ form{
     display: flex;
     justify-content: space-between;
 }
-.contact-form-first-row span{
+.contact-form-first-row div{
     display: flex;
     flex-direction: column;
     width: 49%;
@@ -32,7 +32,7 @@ form textarea{
 }
 form input, textarea{
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 1em;
     border: none;
 }
 form label{
@@ -97,7 +97,7 @@ form label{
     form{
         width: 100%;
     }
-    #contact-section p{
+    .contact-label p{
         width: 100%;
     }
     #contact-section{
@@ -113,13 +113,13 @@ form label{
     }
 }
 @media only screen and (max-width: 579px) {
-    #contact-section p{
+    .contact-label p{
         font-size: 1em;
     }
     .contact-form-first-row{
         flex-direction: column;
     }
-    .contact-form-first-row span{
+    .contact-form-first-row div{
         width: 100%;
     }
     form{
@@ -136,6 +136,9 @@ form label{
     }
 }
 @media only screen and (max-height: 579px) {
+    .contact-label p{
+        font-size: 1em;
+    }
     form{
         max-width: 600px;
     }   
