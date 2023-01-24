@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <>
             <div className='nav'>
-                    <a className='logo-container' href='../../public/index.html'>
+                    <a className='logo-container' href='../../index.html'>
                         <img src={logo}/>
                     </a>
                     <div className='hamburger' onClick={toggleHamburger}>

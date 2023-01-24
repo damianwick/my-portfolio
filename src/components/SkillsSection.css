@@ -47,13 +47,7 @@
 
 @media only screen and (max-width: 1024px) {
     .tile{
-        margin: 10px;
-        width: 150px;
-        height: 150px; 
-        text-align: center;
-    }
-    .tile:nth-last-child(1) {
-        display: none;
+        margin: 25px;
     }
     #skills-section .background-signs h1{
         font-size: 35em;
@@ -62,5 +56,31 @@
         transform: translate(-70%, -50%);
         color: #9CD0D5;
     } 
+}
+@media only screen and (max-width: 579px) {
+    .tile{
+        margin: 10px;
+        width: 100px;
+        height: 100px; 
+        text-align: center;
+    }
+    .icon-container{
+        padding: 10px;
+    }
+}
+@media only screen and (max-height: 579px) {
+    .tiles-container{
+        width: 680px;
+    }
+    .tile{
+        margin: 10px;
+        width: 100px;
+        height: 100px; 
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .icon-container{
+        padding: 10px;
+    }
 }
  

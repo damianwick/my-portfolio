@@ -78,9 +78,18 @@ a img{
         height: 100vh;
         margin: 0;
     }
+    .downBtn{
+        bottom: 10%;
+    }
+    .downBtn p{
+        display: none;
+    }
 }
 @media only screen and (max-height: 579px) {
- .downBtn{
+    #intro-section{
+        height: 100vh;
+    }
+    .downBtn{
     display: none;
  }   
 }

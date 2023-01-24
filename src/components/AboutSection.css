@@ -7,6 +7,7 @@
 .about-inner-container{
     text-align: justify;
     word-break: break-word;
+    line-break: 10px;
 }
 .about-inner-container h2{
     margin: 0 0 10px;
@@ -103,10 +104,6 @@
     #about-section{
         height: auto;
     }
-    .about-inner-container{
-        display: flex;
-        flex-direction: column;
-    }
     .about-inner-container h2{
         margin: 10px 0 5px;
     }
@@ -121,4 +118,10 @@
         margin-top: 20px;
         align-self: center;
     }   
+}
+@media only screen and (max-height: 579px) {
+    .headshot-container{
+        max-width: 250px;
+        margin: 0 0 10px 10px;
+    }
 }

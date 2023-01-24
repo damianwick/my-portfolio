@@ -29,7 +29,7 @@ export default function ContactSection() {
                     <input type='text' name='subject' id='subject'/>
                     <label htmlFor="message">Message</label>
                     <textarea type='text' name='message' id='message'/>
-                    <input type='submit' className='btn form-btn'/>
+                    <input type='submit' value="Submit" className='btn form-btn'/>
                 </form>
             </div> 
         </section>

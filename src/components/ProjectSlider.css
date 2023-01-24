@@ -11,9 +11,6 @@
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
 }
-.projects-left-column{
-    grid-column: 1;
-}
 .projects-left-column h2{
     font-size: 1.5em;
 }
@@ -99,6 +96,7 @@ img{
     .projects-left-column h2{
         font-size: 1.25em;
         margin: 20px 0 0;
+        text-align: center;
     }    
     .projects-left-column{
         display: flex;
@@ -109,6 +107,14 @@ img{
     }
     .iconsContainer{
         align-self: center;
+    }
+    .iconsContainer div{
+        width: 35px;
+        height: 35px;
+        margin: 10px auto;
+    }
+    .iconsContainer div:nth-last-child(n + 2) {
+        margin-right: 10px;
     }
     .project-buttons{
         display: flex;
@@ -121,13 +127,22 @@ img{
     }
     .navigationBtns {
         margin: 20px auto;
+        width: 250px;
         position: relative;
         bottom: 0;
-    }
-    
+    }    
 }
 @media only screen and (max-height: 579px) {
+    .single-project-container{
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        grid-gap: 10px;
+    }
+    .project-buttons{
+        margin-top: 10px;
+    }
     .projects-right-column picture img{
-        width: 500px;
-    } 
+        width: 400px;
+    }
+    
 }
