@@ -7,13 +7,13 @@
 .about-inner-container{
     text-align: justify;
     word-break: break-word;
-    line-break: 10px;
 }
 .about-inner-container h2{
     margin: 0 0 10px;
     font-size: 1.5em;
 }
 .about-inner-container p{
+    font-size: 1em;
     margin: 20px 0 0;
 }
 .resume-btn{

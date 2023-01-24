@@ -1,5 +1,6 @@
 import './IntroGraphic.css'
 import vectorFace from '../assets/man_face.png'
+import introGraphicMobile from '../assets/mobile-intro-graphic.png'
 
 export default function IntroGraphic() {
     const pupils = document.getElementsByClassName('eye');
@@ -21,7 +22,10 @@ export default function IntroGraphic() {
     
     return (
         <div className='intrographic-container'>
-            <div className="intro-graphic-container">
+            <div className='intro-graphic-mobile'>
+                <img src={introGraphicMobile} />
+            </div>
+            <div className="intro-graphic-desktop">
                 <div className='eyes'>
                     <div className='eye eye1'>
                         <div className='pupil pupil1'></div>

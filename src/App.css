@@ -62,14 +62,10 @@ border-radius: 0;
         width: 85%;
     }
 }
-@media only screen and (max-width: 1024px) {
-    .app{
-        padding: 0 10px;
-    }
-}
+
 @media only screen and (max-width: 1024px), only screen and (max-height: 579px) {
     .wrapper {
-        padding: 0 5px;
+        padding: 0 15px;
         box-sizing: border-box;
         width: 100%;
     }

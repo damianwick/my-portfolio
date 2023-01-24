@@ -46,7 +46,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .tile{
+    .tile{  
+        width: 140px;
+        height: 140px;
         margin: 25px;
     }
     #skills-section .background-signs h1{
@@ -55,7 +57,7 @@
         top: 50%;
         transform: translate(-70%, -50%);
         color: #9CD0D5;
-    } 
+    }
 }
 @media only screen and (max-width: 579px) {
     .tile{
