@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.16a85141.css",
-    "main.js": "/my-portfolio/static/js/main.1511a448.js",
+    "main.css": "/my-portfolio/static/css/main.45e32a27.css",
+    "main.js": "/my-portfolio/static/js/main.113e312c.js",
     "static/media/damian_headshot.jpg": "/my-portfolio/static/media/damian_headshot.8cefee76da2ffa632d18.jpg",
     "static/media/tumblr_desktop.jpg": "/my-portfolio/static/media/tumblr_desktop.70ce71f937750901c3d2.jpg",
     "static/media/mobile-intro-graphic.png": "/my-portfolio/static/media/mobile-intro-graphic.82ce961eac99c73ce001.png",
@@ -21,11 +21,11 @@
     "static/media/css3.svg": "/my-portfolio/static/media/css3.1b3bf745a0ff6cfd3479fbe9575c6f7d.svg",
     "static/media/html5.svg": "/my-portfolio/static/media/html5.b2fd7238f3dd9ce70e3ded24dfe6486b.svg",
     "static/media/arrow.svg": "/my-portfolio/static/media/arrow.833c0d6fdb6d7384c83c14bce4cf91e8.svg",
-    "main.16a85141.css.map": "/my-portfolio/static/css/main.16a85141.css.map",
-    "main.1511a448.js.map": "/my-portfolio/static/js/main.1511a448.js.map"
+    "main.45e32a27.css.map": "/my-portfolio/static/css/main.45e32a27.css.map",
+    "main.113e312c.js.map": "/my-portfolio/static/js/main.113e312c.js.map"
   },
   "entrypoints": [
-    "static/css/main.16a85141.css",
-    "static/js/main.1511a448.js"
+    "static/css/main.45e32a27.css",
+    "static/js/main.113e312c.js"
   ]
 }
