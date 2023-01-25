@@ -62,7 +62,11 @@ border-radius: 0;
         width: 85%;
     }
 }
-
+@media only screen and (max-width: 1024px) {
+    .btn:hover{
+        background-color:#FFF9F9;
+    }
+} 
 @media only screen and (max-width: 1024px), only screen and (max-height: 579px) {
     .wrapper {
         padding: 0 15px;

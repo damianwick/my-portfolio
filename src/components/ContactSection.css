@@ -14,6 +14,18 @@ form{
 .contact-container{
     z-index: 3;
 }
+.sent-message-container{
+    text-align: center;
+    margin: 50px auto 0;
+    background-color: #FFF9F9;
+    border: 2px solid #2F2F2F;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
 .contact-form-first-row{
     display: flex;
     justify-content: space-between;
@@ -97,6 +109,11 @@ form label{
     form{
         width: 100%;
     }
+    .sent-message-container{
+        margin: 20px auto 0;
+        height: 400px;
+        width: 100%;
+    }
     .contact-label p{
         width: 100%;
     }
@@ -115,6 +132,11 @@ form label{
 @media only screen and (max-width: 579px) {
     .contact-label p{
         font-size: 1em;
+    }
+    .sent-message-container{
+        font-size: 0.8em;
+        height: 200px;
+        width: 100%;
     }
     .contact-form-first-row{
         flex-direction: column;
@@ -138,6 +160,11 @@ form label{
 @media only screen and (max-height: 579px) {
     .contact-label p{
         font-size: 1em;
+    }
+    .sent-message-container{
+
+        height: 200px;
+        width: 100%;
     }
     form{
         max-width: 600px;
