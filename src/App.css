@@ -51,6 +51,7 @@ input.text,
 input[type="text"],
 input[type="button"],
 input[type="submit"],
+button,
 .input-checkbox {
 color: #2F2F2F;
 -webkit-appearance: none;

@@ -21,10 +21,9 @@ export default function ContactSection() {
                 <div className='sent-message-container'>
                     <h2>Thank you for your message!</h2>
                 </div>
-
             </div> 
         </section>
-    )
+        )
     }
 
     return (
