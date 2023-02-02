@@ -25,7 +25,6 @@ form{
     align-items: center;
     width: 60%;
 }
-
 .contact-form-first-row{
     display: flex;
     justify-content: space-between;
@@ -44,6 +43,7 @@ form textarea{
 }
 form input, textarea{
     box-sizing: border-box;
+    font-family: inherit;
     font-size: 1em;
     border: none;
 }
@@ -162,7 +162,6 @@ form label{
         font-size: 1em;
     }
     .sent-message-container{
-
         height: 200px;
         width: 100%;
     }

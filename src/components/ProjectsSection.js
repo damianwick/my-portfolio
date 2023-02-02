@@ -53,9 +53,8 @@ export default function ProjectsSection() {
         {
         name: 'My Portfolio Website',
         description: `A fully responsive React portfolio website in a landing page format. 
-        This project was an opportunity for me to polish my react skills and solidify 
-        what I had already known about the library. In addition, I learned how to make 
-        a contact form work using PHP and how to deploy the entire project. `,
+        This project was an opportunity for me to polish my React skills and solidify 
+        what I had already known about the library. The website is hosted on GitHub Pages. The contact form has been connected using Formspree`,
         imgSource: portfolioImg,
         codeLink: "https://github.com/damianwick/my-portfolio",
         iconSrcList: [reactIcon, jsIcon, htmlIcon, cssIcon]
