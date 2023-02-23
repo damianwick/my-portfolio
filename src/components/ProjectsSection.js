@@ -19,7 +19,7 @@ export default function ProjectsSection() {
         description: `Dictionary Flashcards is a web app, that lets users search for definitions to words 
         in English. It uses a database from Words API. Every definition can be 
         added to the list of flashcards, that users can flip through by accessing "Flashcards" tab. The app uses browser’s 
-        local storage to remember the words and their definitions. The interface has 
+        local storage to keep track the words and their definitions. The interface has 
         been styled with Bootstrap.   `,
         imgSource: flashcardsImage, 
         liveLink: 'https://cheerful-starburst-1e396c.netlify.app/',
@@ -41,10 +41,9 @@ export default function ProjectsSection() {
         },
         {
         name: 'Journal App',
-        description: `Every portfolio needs a CRUD app, so here is mine. 
-        In Journal App users can not only create entries but also style 
-        them using the formatting tools at the bottom of the text area. 
-        Each entry has a date of when it was created, that is displayed above it. Entries can be edited, deleted and expanded.`,
+        description: `A prototype of a journaling app that uses DOM manipulation to create entries. 
+        Users can style entries using formatting tools at the bottom of the text area. The prototype uses Date() constructor to assign date to each entry. 
+        Entries can be edited, deleted and expanded.`,
         imgSource: journalImg,
         liveLink: "https://chic-blancmange-b37820.netlify.app/",
         codeLink: "https://github.com/damianwick/journal-app",
@@ -54,7 +53,7 @@ export default function ProjectsSection() {
         name: 'My Portfolio Website',
         description: `A fully responsive React portfolio website in a landing page format. 
         This project was an opportunity for me to polish my React skills and solidify 
-        what I had already known about the library. The website is hosted on GitHub Pages. The contact form has been connected using Formspree`,
+        what I had already known about the library. The website is hosted on GitHub Pages. The contact form has been connected using Formspree.`,
         imgSource: portfolioImg,
         codeLink: "https://github.com/damianwick/my-portfolio",
         iconSrcList: [reactIcon, jsIcon, htmlIcon, cssIcon]

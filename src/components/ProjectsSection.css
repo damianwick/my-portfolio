@@ -38,6 +38,18 @@
         top: 50%;
     }
 }
+@media only screen and (max-width: 1366px) {
+    #projects-section .background-signs h1:nth-child(1){
+        color: ##c3e2e3;
+        font-size: 22em;
+    }
+    #projects-section .background-signs h1:nth-child(2){
+        color: #bcdee0;
+        font-size: 25em;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {
     #projects-section .background-signs h1:nth-child(1){
         display: none;

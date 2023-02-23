@@ -45,6 +45,30 @@
     }   
 }
 
+@media only screen and (max-width: 1536px) {
+    .tile{
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+    }
+    #skills-section .background-signs h1{
+        font-size: 35em;
+        top: 110px;
+        color: #9ed1d4;
+    }  
+    
+}
+@media only screen and (max-width: 1366px) {
+    .tile{
+        width: 140px;
+        height: 140px;
+    }
+    #skills-section .background-signs h1{
+        font-size: 35em;
+        left: -100px;
+        top: 110px;
+    }  
+}
 @media only screen and (max-width: 1024px) {
     .tile{  
         width: 140px;

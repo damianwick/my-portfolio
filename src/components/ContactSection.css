@@ -1,14 +1,3 @@
-textarea,
-input.text,
-input[type="text"],
-input[type="button"],
-input[type="submit"],
-button,
-.input-checkbox {
-color: #2F2F2F;
--webkit-appearance: none;
-border-radius: 0;
-}
 .contact-label p{
     width: 60%;
     margin: 0 auto;
@@ -101,10 +90,45 @@ form label{
         top: 50px;
         color: #2EA0AF;
     }
-    
     #contact-section .background-signs h1:nth-child(2){
         font-size: 30em;
         left: 250px;
+        top: 20px;
+        color: #1695A6;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .contact-label p{
+        font-size: 1.1em;
+        text-align: center;
+    }
+    form input:nth-child(-n+3){
+        height: 30px;
+    }
+    form textarea{
+        height: 270px;
+        resize: none;
+    }
+    #contact-section .background-signs h1:nth-child(1){
+        font-size: 25em;
+    }
+    #contact-section .background-signs h1:nth-child(2){
+        font-size: 25em;
+        left: 220px;
+        
+    }
+}
+@media only screen and (max-width: 1366px) {
+    #contact-section .background-signs h1:nth-child(1){
+        font-size: 20em;
+        left: -250px;
+        top: 50px;
+        color: #34a3b1;
+    }
+    #contact-section .background-signs h1:nth-child(2){
+        font-size: 25em;
+        left: 120px;
         top: 20px;
         color: #1695A6;
     }
@@ -119,6 +143,7 @@ form label{
     }
     form{
         width: 100%;
+        max-width: 600px;
     }
     .sent-message-container{
         margin: 20px auto 0;
@@ -157,9 +182,6 @@ form label{
     }
     form{
         text-align: center;
-    }
-    form input:nth-child(-n+3){
-        height: 30px;
     }
     form label{
         margin: 5px;
