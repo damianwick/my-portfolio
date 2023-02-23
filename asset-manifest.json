@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a9647ef.css",
-    "main.js": "/static/js/main.4e120edc.js",
+    "main.css": "/static/css/main.3d2896ab.css",
+    "main.js": "/static/js/main.1204d7ad.js",
     "static/media/damian_headshot.jpg": "/static/media/damian_headshot.8cefee76da2ffa632d18.jpg",
     "static/media/tumblr_desktop.jpg": "/static/media/tumblr_desktop.70ce71f937750901c3d2.jpg",
     "static/media/mobile-intro-graphic.png": "/static/media/mobile-intro-graphic.82ce961eac99c73ce001.png",
@@ -21,11 +21,11 @@
     "static/media/css3.svg": "/static/media/css3.1b3bf745a0ff6cfd3479fbe9575c6f7d.svg",
     "static/media/html5.svg": "/static/media/html5.b2fd7238f3dd9ce70e3ded24dfe6486b.svg",
     "static/media/arrow.svg": "/static/media/arrow.833c0d6fdb6d7384c83c14bce4cf91e8.svg",
-    "main.7a9647ef.css.map": "/static/css/main.7a9647ef.css.map",
-    "main.4e120edc.js.map": "/static/js/main.4e120edc.js.map"
+    "main.3d2896ab.css.map": "/static/css/main.3d2896ab.css.map",
+    "main.1204d7ad.js.map": "/static/js/main.1204d7ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a9647ef.css",
-    "static/js/main.4e120edc.js"
+    "static/css/main.3d2896ab.css",
+    "static/js/main.1204d7ad.js"
   ]
 }
