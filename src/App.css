@@ -28,7 +28,7 @@ section{
 }
 .background-signs{
     position: absolute;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', 'Anton', sans-serif;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -50,12 +50,14 @@ input.text,
 input[type="text"],
 input[type="button"],
 input[type="submit"],
+input[type="email"],
 button,
 .input-checkbox {
 color: #2F2F2F;
 -webkit-appearance: none;
 border-radius: 0;
 }
+
 @media only screen and (max-width: 1536px) {
     .wrapper{
         width:70% ;
@@ -64,6 +66,7 @@ border-radius: 0;
         padding: 0.4em 1.2em;
     }
 }
+
 
 @media only screen and (max-width: 1024px) {
     .btn:hover{

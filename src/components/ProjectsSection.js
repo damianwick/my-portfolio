@@ -5,12 +5,12 @@ import tumblrCloneImg from '../assets/tumblr_desktop.jpg'
 import journalImg from '../assets/journal_desktop.jpg'
 import portfolioImg from '../assets/portfolio_desktop.jpg'
 
-import htmlIcon from '../assets/html5.svg'
-import cssIcon from '../assets/css3.svg'
-import jsIcon from '../assets/js.svg'
-import reactIcon from '../assets/react.svg'
-import bootstrapIcon from '../assets/bootstrap.svg'
-import sassIcon from '../assets/sass.svg'
+import htmlIcon from '../assets/htmlIcon.svg'
+import cssIcon from '../assets/cssIcon.svg'
+import jsIcon from '../assets/jsIcon.svg'
+import reactIcon from '../assets/reactIcon.svg'
+import bootstrapIcon from '../assets/bootstrapIcon.svg'
+import sassIcon from '../assets/sassIcon.svg'
 
 export default function ProjectsSection() {
     const projects = [
@@ -50,8 +50,8 @@ export default function ProjectsSection() {
         iconSrcList: [sassIcon, jsIcon, htmlIcon]
         },
         {
-        name: 'My Portfolio Website',
-        description: `A fully responsive React portfolio website in a landing page format. 
+        name: 'React Portfolio Website',
+        description: `A fully responsive React portfolio website in a landing page format. Utilizes React's State hook to handle the functionality of the projects gallery and the hamburger menu in a mobile view.
         This project was an opportunity for me to polish my React skills and solidify 
         what I had already known about the library. The website is hosted on GitHub Pages. The contact form has been connected using Formspree.`,
         imgSource: portfolioImg,

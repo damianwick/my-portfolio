@@ -1,13 +1,13 @@
 import './SkillsSection.css'
-import htmlIcon from '../assets/html5.svg'
-import cssIcon from '../assets/css3.svg'
-import jsIcon from '../assets/js.svg'
-import reactIcon from '../assets/react.svg'
-import bootstrapIcon from '../assets/bootstrap.svg'
+import htmlIcon from '../assets/htmlIcon.svg'
+import cssIcon from '../assets/cssIcon.svg'
+import jsIcon from '../assets/jsIcon.svg'
+import reactIcon from '../assets/reactIcon.svg'
+import bootstrapIcon from '../assets/bootstrapIcon.svg'
 import jqueryIcon from '../assets/jquery.svg'
 import figmaIcon from '../assets/figma.svg'
 import gitIcon from '../assets/git.svg'
-import sassIcon from '../assets/sass.svg'
+import sassIcon from '../assets/sassIcon.svg'
 
 export default function SkillsSection() {
     return (
