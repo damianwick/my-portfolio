@@ -14,7 +14,7 @@ export default function Navbar() {
         <>
             <div className='nav'>
                     <a className='logo-container' href='../../index.html'>
-                        <img src={logo}/>
+                        <img src={logo} alt="damian-wiecek-developer-logo"/>
                     </a>
                     <div className='hamburger' onClick={toggleHamburger}>
                         <Hamburger isActive={isHamburgerOpen}/>

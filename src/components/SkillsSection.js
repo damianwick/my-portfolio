@@ -18,55 +18,55 @@ export default function SkillsSection() {
             <div className="tiles-container">
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={reactIcon} />
+                        <img src={reactIcon} alt="react-icon"/>
                     </div>
                     <span>React</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={jsIcon} />
+                        <img src={jsIcon} alt="javascript-icon"/>
                     </div>
                     <span>JavaScript</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={jqueryIcon} />
+                        <img src={jqueryIcon} alt="jquery-icon"/>
                     </div>
                     <span>jQuery</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={sassIcon} />
+                        <img src={sassIcon} alt="sass-icon"/>
                     </div>
                     <span>Sass</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={bootstrapIcon} />
+                        <img src={bootstrapIcon} alt="bootstrap-icon"/>
                     </div>
                     <span>Bootstrap</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={gitIcon} />
+                        <img src={gitIcon} alt="git-icon"/>
                     </div>
                     <span>Git</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={htmlIcon} />
+                        <img src={htmlIcon} alt="html-icon"/>
                     </div>
                     <span>HTML</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={cssIcon} />
+                        <img src={cssIcon} alt="css-icon"/>
                     </div>
                     <span>CSS</span>
                 </div>
                 <div className="tile">
                     <div className="icon-container">
-                        <img src={figmaIcon} />
+                        <img src={figmaIcon} alt="figma-icon"/>
                     </div>
                     <span>Figma</span>
                 </div>

@@ -23,7 +23,7 @@ export default function IntroGraphic() {
     return (
         <div className='intrographic-container'>
             <div className='intro-graphic-mobile'>
-                <img src={introGraphicMobile} />
+                <img src={introGraphicMobile} alt="damian-wiecek-developer-graphic"/>
             </div>
             <div className="intro-graphic-desktop">
                 <div className='eyes'>
@@ -34,7 +34,7 @@ export default function IntroGraphic() {
                         <div className='pupil pupil2'></div>
                     </div>
                 </div>
-                <img src={vectorFace}/>
+                <img src={vectorFace} alt="damian-wiecek-developer-graphic"/>
             </div>
             <div className='intro-headline'>
                 <p>I'm a</p>

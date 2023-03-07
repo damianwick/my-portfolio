@@ -36,7 +36,7 @@ export default function ProjectSlider({ projects }) {
                 </div>
                 <div className='iconsContainer'>
                     {projects[currentIndex].iconSrcList.map(src => {
-                        return <div><img src={src}/></div>
+                        return <div><img src={src} alt="tech-icon"/></div>
                     })}
                 </div>
                 <div className='project-buttons'>
@@ -46,7 +46,7 @@ export default function ProjectSlider({ projects }) {
             </div>
             <div className="projects-right-column">
                 <picture>
-                    <img src={projects[currentIndex].imgSource} />
+                    <img src={projects[currentIndex].imgSource} alt="project-screenshot"/>
                 </picture>
             </div>    
         </div>

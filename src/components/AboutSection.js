@@ -11,7 +11,7 @@ export default function AboutSection() {
             <div className='about-container'> 
                 <div className='about-inner-container'>
                     <div className='headshot-container'>
-                        <img src={headshot} />
+                        <img src={headshot} alt="damian-wiecek-web-developer" />
                     </div>
                     <h2>Hi, I'm Damian</h2>
                     <p>
