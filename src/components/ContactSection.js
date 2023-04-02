@@ -43,11 +43,11 @@ export default function ContactSection() {
                     <div className='contact-form-first-row'>
                         <div>
                             <label htmlFor="name">Name</label>
-                            <input type='text' name='name' id='name'/>
+                            <input type='text' name='name' id='name' required/>
                         </div>
                         <div>
                             <label htmlFor="email">Email</label>
-                            <input type='email' name='email' id='email'/>
+                            <input type='email' name='email' id='email' required/>
                             <ValidationError 
                                 prefix="Email" 
                                 field="email"
@@ -56,9 +56,9 @@ export default function ContactSection() {
                         </div>
                     </div>  
                     <label htmlFor="subject">Subject</label>
-                    <input type='text' name='subject' id='subject'/>
+                    <input type='text' name='subject' id='subject' required/>
                     <label htmlFor="message">Message</label>
-                    <textarea type='text' name='message' id='message'/>
+                    <textarea type='text' name='message' id='message' required/>
                     <ValidationError 
                         prefix="Message" 
                         field="message"

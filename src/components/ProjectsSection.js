@@ -30,7 +30,7 @@ export default function ProjectsSection() {
         name: 'Tumblr Clone',
         description: `A fully responsive HTML clone of the Tumblr’s main page. The goal for this project was to 
          recreate the website’s layout as closely as possible. 
-         Practicing HTML and CSS skills was the main incentive for starting 
+         Practicing HTML and Sass skills was the main incentive for starting 
          the development, although a little bit of JavaScript has been used to handle the functionality of the side navigation. 
          Trying to replicate something that has already been built, 
          in my opinion helps to understand others’ approach to web development.`,
