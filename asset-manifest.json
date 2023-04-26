@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cd73bcf.css",
-    "main.js": "/static/js/main.93f67be7.js",
+    "main.css": "/static/css/main.85f5e2ec.css",
+    "main.js": "/static/js/main.7b1570c6.js",
     "static/media/damian_headshot.jpg": "/static/media/damian_headshot.8cefee76da2ffa632d18.jpg",
     "static/media/tumblr_desktop.jpg": "/static/media/tumblr_desktop.70ce71f937750901c3d2.jpg",
     "static/media/ecommerce-website-project.png": "/static/media/ecommerce-website-project.24a81492c9c0676c4c8c.png",
@@ -23,11 +23,11 @@
     "static/media/cssIcon.svg": "/static/media/cssIcon.1b3bf745a0ff6cfd3479fbe9575c6f7d.svg",
     "static/media/htmlIcon.svg": "/static/media/htmlIcon.b2fd7238f3dd9ce70e3ded24dfe6486b.svg",
     "static/media/arrow.svg": "/static/media/arrow.833c0d6fdb6d7384c83c14bce4cf91e8.svg",
-    "main.2cd73bcf.css.map": "/static/css/main.2cd73bcf.css.map",
-    "main.93f67be7.js.map": "/static/js/main.93f67be7.js.map"
+    "main.85f5e2ec.css.map": "/static/css/main.85f5e2ec.css.map",
+    "main.7b1570c6.js.map": "/static/js/main.7b1570c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd73bcf.css",
-    "static/js/main.93f67be7.js"
+    "static/css/main.85f5e2ec.css",
+    "static/js/main.7b1570c6.js"
   ]
 }
