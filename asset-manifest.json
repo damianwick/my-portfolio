@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61380e5a.css",
-    "main.js": "/static/js/main.6db4cb0a.js",
+    "main.js": "/static/js/main.052b9b94.js",
     "static/media/damian_headshot.jpg": "/static/media/damian_headshot.8cefee76da2ffa632d18.jpg",
     "static/media/tumblr_desktop.jpg": "/static/media/tumblr_desktop.70ce71f937750901c3d2.jpg",
     "static/media/ecommerce-website-project.png": "/static/media/ecommerce-website-project.24a81492c9c0676c4c8c.png",
@@ -24,10 +24,10 @@
     "static/media/htmlIcon.svg": "/static/media/htmlIcon.b2fd7238f3dd9ce70e3ded24dfe6486b.svg",
     "static/media/arrow.svg": "/static/media/arrow.833c0d6fdb6d7384c83c14bce4cf91e8.svg",
     "main.61380e5a.css.map": "/static/css/main.61380e5a.css.map",
-    "main.6db4cb0a.js.map": "/static/js/main.6db4cb0a.js.map"
+    "main.052b9b94.js.map": "/static/js/main.052b9b94.js.map"
   },
   "entrypoints": [
     "static/css/main.61380e5a.css",
-    "static/js/main.6db4cb0a.js"
+    "static/js/main.052b9b94.js"
   ]
 }
