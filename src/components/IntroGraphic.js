@@ -37,9 +37,9 @@ export default function IntroGraphic() {
                 <img src={vectorFace} alt="damian-wiecek-developer-graphic"/>
             </div>
             <div className='intro-headline'>
-                <p>I'm a</p>
-                <div><span>FRONT-END</span> <span>WEB</span> <span>DEVELOPER</span></div>
-                <p>ready to take the next step in my career</p>
+                <p>Welcome to my</p>
+                <div><span>FRONT-END</span> <span>DEVELOPMENT</span></div>
+                <p>portfolio</p>
             </div>
         </div>
     )

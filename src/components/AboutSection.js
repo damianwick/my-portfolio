@@ -15,9 +15,7 @@ export default function AboutSection() {
                     </div>
                     <h2>Hi, I'm Damian</h2>
                     <p>
-                    I’m a self-taught front-end web developer, based in London. I'm currently looking to enter the industry in a junior position.
-                    <br /> <br />
-                    I got interested in web development after starting to experiment with graphic design. At one point the next obvious step for me was creating a website, where I could showcase my work. I couldn’t find a single appealing template on any of the most popular website builders so I decided to figure out how to use HTML. After building a simple website, I realised that the whole experience was more enjoyable than the time I had spent in Adobe Illustrator. I gave it some serious thought and here we are.<br/> <br />My goal is to work for a company that would benefit from the skills I already have, but also would enable me to expand my abilities. Ultimately I’d like to gain enough knowledge to call myself a full-stack developer. My dream project is an ear training app for musicians, as I’m a huge music enthusiast.<br /> <br />PS: I have a bachelor's degree in journalism and mass communication.
+                    I’m a journalism graduate based in London who is passionate about all things web development, design and photography. Need help putting together a website? Struggling to nail your SEO? Or looking for eye-catching graphics your socials? I’m here for you!<br/> <br />I love brainstorming ideas with others and finding the right solution is what gets me going. If I sound like someone your team would benefit from, message me using the contact form or send an email at damianr.wick@gmail.com.<br />
                     </p>
                 </div>
                     <a href='#' type='button' className='resume-btn btn'>Resume</a>
